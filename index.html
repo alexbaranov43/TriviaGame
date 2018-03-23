@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+        <audio controls autoplay>
+ 
+                <source src="assets/javascript/01 Grazing in the Grass.mp3" type="audio/mpeg">
+          
+              </audio>
+    <div class="header">
+        <h1> "Anchorman: The Legend of Ron Burgundy" Trivia!</h1>
+    </div>
+    <div class="start">
+        <button class="begin">Start</button>
+    </div>
+    <div class="hidden" id="triviaQuestions">
+        <h3>Time Remaining:
+            <span class="timer"></span>
+        </h3>
+        <h2> Question 1: What is the name of the restaurant that Veronica visits with the girls from the station?
+        </h2>
+        <form class="q1">
+            <input class="q1" type="radio" name="q" value="w" id="radio"> Langosta Torcida
+            <input class="q1" type="radio" name="q" value="w" id="radio"> We Spit In Your Food
+            <input class="q1" type="radio" name="q" value="w" id="radio"> Other
+            <input class="q1" type="radio" name="q" value="r" id="radio"> Escupimos en su Alimento
+        </form>
+        <h2> Qustion 2: How many people were in the famous street fight scene? </h2>
+        <form class="q2">
+            <input class="q2" type="radio" name="q" value="w"> 25
+            <input class="q2" type="radio" name="q" value="r"> 23
+            <input class="q2" type="radio" name="q" value="w"> 32
+            <input class="q2" type="radio" name="q" value="w"> 16
+        </form>
+        <h2>Question 3: The zoo scene was filmed in which zoo?</h2>
+        <form class="q3">
+            <input class="q3" type="radio" name="q" value="w"> Bronx Zoo
+            <input class="q3" type="radio" name="q" value="w"> Houston Zoo
+            <input class="q3" type="radio" name="q" value="r"> Los Angeles Zoo
+            <input class="q3" type="radio" name="q" value="w"> Philadephia Zoo
+        </form>
+        <h2> Question 4: What is Ron's full name?</h2>
+        <form class="q4">
+            <input class="q4" type="radio" name="q" value="w"> Roanld Jake Burgundy
+            <input class="q4" type="radio" name="q" value="w"> Ronson Jon Von Burgundy
+            <input class="q4" type="radio" name="q" value="w"> Ron Allen Burgundy Jr.
+            <input class="q4" type="radio" name="q" value="r"> Ronald Joseph Aaron Burgundy.
+        </form>
+        <br>
+
+        <button class="done">Submit</button>
+
+    </div>
+    <div id="gameOver" class="hidden">
+        <h2 class="submitted">Finished!</h2>
+        <h2 class="timesUp"> Times Up!</h2>
+        <p>
+            <b>Questions Correct: </b>
+            <span class="correct"></span>
+        </p>
+        <p>
+            <b>Questions Incorrect: </b>
+            <span class="incorrect"></span>
+        </p>
+        <p>
+            <b>Unanswered: </b>
+            <span class="unanswered"></span>
+        </p>
+        <button class="reset">Try Again</button>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
