@@ -1,28 +1,34 @@
 body {
-    background: dodgerblue;
+    background: #2980b9;
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
+    
 
 }
 
 .header {
     width: 90%;
     height: 10%;
-    border: maroon 8px double;
-    background: yellow;
-    color: maroon;
+    border: #c0392b 8px double;
+    border-radius: 15px;
+    background: #f1c40f;
+    color: #c0392b;
     padding: 10px;
     margin: 3% auto;
     text-align: center;
+    font-family: 'Fascinate Inline', cursive;
 }
 
 button {
     height: 90px;
     width: 150px;
+    font-family: 'Fascinate Inline', cursive;
     font-size: 30px;
-    border: maroon 4px double;
-    background-color: rgb(29, 233, 35);
+    color: #2c3e50;
+    border: #2c3e50 4px double;
+    background-color: #d35400;
     margin-left: 5%;
+    border-radius: 15px;
 }
 
 button:hover {
@@ -34,9 +40,11 @@ button:hover {
 #triviaQuestions, #gameOver {
     width: 80%;
     height: 60%;
-    background: olivedrab;
+    border-radius: 15px;
+    background: #16a085;
+    font-family: 'Shrikhand', cursive;
     padding: 20px;
     margin: 6% auto;
-    border: navajowhite 8px groove;
+    border: #c0392b 8px groove;
     
 }
